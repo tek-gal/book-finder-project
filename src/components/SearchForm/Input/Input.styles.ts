@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 
-export type InputProps = {};
-
-export const InputStyles = styled.input<InputProps>`
+export const InputStyles = styled.input`
   font-size: 14px;
   letter-spacing: .1em;
   padding: 9px 15px;
