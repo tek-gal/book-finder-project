@@ -6,6 +6,7 @@ export type ButtonProps = {
 };
 
 export const ButtonStyles = styled.button<ButtonProps>`
+  cursor: pointer;
   font-size: 14px;
   padding: 10px;
   border: none;
