@@ -1,3 +1,4 @@
-import store from './store';
+import type { RootState } from './reducer';
 
-export default store;
+export { default as store } from './store';
+export type { RootState };

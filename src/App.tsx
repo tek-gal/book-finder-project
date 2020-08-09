@@ -1,7 +1,8 @@
 import React from 'react';
 
 import BackgroundImage from './images/sky.jpeg';
-import { Background, Container, AppTitle, SearchForm, BookList } from './components';
+import { Background, Container, AppTitle, BookList } from './components';
+import { SearchForm } from './containers';
 import './App.css';
 
 

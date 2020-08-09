@@ -1,9 +1,10 @@
-import { Reducer, combineReducers } from 'redux';
+import { combineReducers } from 'redux';
+
+import { booksReducer } from './books';
 
 
-const reducer: Reducer = (state: any, action: any): any => {
+export const rootReducer = combineReducers({
+    books: booksReducer,
+});
 
-};
-
-export default reducer;
-
+export type RootState = ReturnType<typeof rootReducer>;

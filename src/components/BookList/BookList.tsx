@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BookObject from '../../types/Book';
+import Book from '../../types/Book';
 import { BookListStyles } from './BookList.styles'
 import { BookListProps } from './BookList.types'
 import BookCard from './BookCard/BookCard';
@@ -8,7 +8,7 @@ import EmptyBookList from './EmptyBookList/EmptyBookList';
 
 
 const BookList: React.FC<BookListProps> = () => {
-  const books: BookObject[] = [
+  const books: Book[] = [
     {
       _id: 'sdfsdfsdfsdf',
       title: 'book title 1',
