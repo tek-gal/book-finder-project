@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 import { BackgroundStyles } from './Background.styles';
 import { BackgroundProps } from './Background.types';

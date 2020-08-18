@@ -1,3 +1,7 @@
+import Book from '../../types/Book';
+
+
 export type BookListProps = {
-  // books: object[];
+  books: Book[];
+  loading: boolean,
 };

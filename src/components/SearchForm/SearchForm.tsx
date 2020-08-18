@@ -19,9 +19,13 @@ const SearchForm: React.FC<SearchFormProps> = ({ searchBooks }) => {
     e.preventDefault();
     searchBooks(searchRequest);
   };
-  
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
+    e.preventDefault();
+    searchBooks(searchRequest);
+  };
+
   return (
-    <SearchFormStyles>
+    <SearchFormStyles onSubmit={onSubmit}>
       <Input value={searchRequest} onChange={onInputChange}/>
       <Button onClick={onSearch} />
     </SearchFormStyles>
